@@ -1,18 +1,28 @@
-# AI-Powered JMeter MCP Server
+# AI-Driven CI/CD Performance Testing Framework using MCP, JMeter, and Jenkins
 
-### MCP-Based Intelligent JMeter Automation Framework
-
-- This project integrates Apache JMeter with an MCP (Model Context Protocol) server to enable AI-driven performance testing using natural language. 
-- The MCP server executes JMeter test plans, analyzes generated JTL results, detects bottlenecks, and automatically updates jmeter.properties for optimized future test executions.
+- This project integrates Apache JMeter, MCP (Model Context Protocol), GitHub Copilot, and Jenkins to create an AI-driven performance testing and optimization framework for CI/CD environments.
+- The MCP server enables natural language-based execution of JMeter test plans through AI agents, while Jenkins automates test execution on every GitHub push as part of the CI/CD pipeline.
+- After each execution, the framework automatically analyzes generated JTL performance results, detects bottlenecks such as high response time and error rates, and dynamically updates `jmeter.properties` for optimized future test executions.
+- The framework acts as a self-healing performance testing system by continuously adapting test configurations based on previous execution metrics and system behavior.
 
 
 ## Objectives
 
-- Execute local JMeter test plans using AI prompts through MCP.
-- Automatically analyze JMeter test results.
-- Detect bottlenecks such as high response time and error rate.
-- Update jmeter.properties dynamically for optimized future executions.
-- Generate intelligent optimization summaries.
+- Execute local JMeter test plans using AI prompts through MCP integration.
+- Automate JMeter performance testing within Jenkins CI/CD pipelines.
+- Trigger performance tests automatically on GitHub push events.
+- Analyze generated JTL result files after every execution.
+- Detect performance bottlenecks such as:
+  -- High response time
+  -- High error rate
+  -- System instability under load
+- Dynamically update `jmeter.properties` for optimized future executions.
+- Generate intelligent optimization summaries including:
+  -- Bottleneck detected
+  -- Root cause
+  -- Optimization applied
+  -- Updated configuration values
+- Build a self-healing AI-assisted performance testing workflow for continuous optimization.
 
 
 ## Features
@@ -55,16 +65,16 @@ AI Optimization Summary
 
 ## Folder Structure
 
-jmeter-mcp-server/
-│
-├── tests/
-│   └── sample-test.jmx
-│
-├── jmeter.properties
-├── result.jtl
-├── server.js
-├── package.json
-└── README.md
+-jmeter-mcp-server/
+-│
+-├── tests/
+-│   └── sample-test.jmx
+-│
+-├── jmeter.properties
+-├── result.jtl
+-├── server.js
+-├── package.json
+-└── README.md
 
 
 ### Use pdf "MCP Server Setup Guide" for mcp server guide
