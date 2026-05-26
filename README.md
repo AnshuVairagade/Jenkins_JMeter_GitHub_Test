@@ -5,6 +5,12 @@
 - After each execution, the framework automatically analyzes generated JTL performance results, detects bottlenecks such as high response time and error rates, and dynamically updates `jmeter.properties` for optimized future test executions.
 - The framework acts as a self-healing performance testing system by continuously adapting test configurations based on previous execution metrics and system behavior.
 
+-
+
+## Techincal HLD Archeitecture Daigram
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6d639908-19a1-41ae-b8ca-18926d2f2715" />
+
+-
 
 ## Objectives
 
@@ -23,7 +29,11 @@
   -- Optimization applied
   -- Updated configuration values
 - Build a self-healing AI-assisted performance testing workflow for continuous optimization.
+-
 
+### You can see ouput screenshot in Jmeter_MCP_Server.docx file in same repository
+
+-
 
 ## Features
 
@@ -35,6 +45,7 @@
 - Bottleneck Detection
 - Self-Healing Performance Testing
 - AI-Based Optimization Summary
+-
 
 ## Tech Stack
 
@@ -44,7 +55,7 @@
 - VS Code MCP Integration
 - GitHub Copilot
 - JavaScript
-
+-
 
 ## Architecture
 
@@ -62,6 +73,7 @@ jmeter.properties Optimization
     ↓
 AI Optimization Summary
 
+-
 
 ## Folder Structure
 
@@ -76,7 +88,7 @@ AI Optimization Summary
 -├── package.json
 -└── README.md
 
-
+-
 ### Use pdf "MCP Server Setup Guide" for mcp server guide
 
 
@@ -88,7 +100,7 @@ execute_and_optimize_jmeter_test
 Purpose:
 Executes JMeter tests, analyzes performance metrics, detects bottlenecks, and updates jmeter.properties automatically.
 
-
+-
 
 ## Example Prompt
 
@@ -96,7 +108,7 @@ Use the execute_and_optimize_jmeter_test MCP tool to execute and optimize this J
 
 C:/Users/HP/Desktop/jmeter-mcp-server/tests/sample-test.jmx
 
-
+-
 
 ## Learning Outcomes
 
@@ -107,6 +119,7 @@ C:/Users/HP/Desktop/jmeter-mcp-server/tests/sample-test.jmx
 - Result Analysis
 - Self-Healing Systems
 
+-
 
 ## License
 
